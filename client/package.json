@@ -10,23 +10,23 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "latest",
-    "core-js": "latest",
-    "vue": "latest",
-    "vue-router": "latest",
-    "vuetify": "latest"
+    "axios": "*",
+    "core-js": "*",
+    "vue": "*",
+    "vue-router": "*",
+    "vuetify": "*"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "latest",
-    "@vue/cli-plugin-eslint": "latest",
-    "@vue/cli-service": "latest",
-    "babel-eslint": "^latest",
-    "eslint": "latest",
-    "eslint-plugin-vue": "latest",
-    "sass": "latest",
-    "sass-loader": "latest",
-    "vue-cli-plugin-vuetify": "latest",
-    "vue-template-compiler": "latest",
-    "vuetify-loader": "latest"
+    "@vue/cli-plugin-babel": "*",
+    "@vue/cli-plugin-eslint": "*",
+    "@vue/cli-service": "*",
+    "babel-eslint": "^*",
+    "eslint": "*",
+    "eslint-plugin-vue": "*",
+    "sass": "*",
+    "sass-loader": "*",
+    "vue-cli-plugin-vuetify": "*",
+    "vue-template-compiler": "*",
+    "vuetify-loader": "*"
   }
 }
