@@ -12,6 +12,6 @@ module.exports = {
     parser: 'babel-eslint',
   },
   rules: {
-    // Your custom rules here
+    'prettier/prettier': 'error'
   },
 };
