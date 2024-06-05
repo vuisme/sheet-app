@@ -6,8 +6,6 @@ module.exports = {
   extends: [
     'plugin:vue/essential',
     '@vue/standard',
-    '@vue/prettier',
-    '@vue/prettier/@typescript-eslint',
   ],
   parserOptions: {
     parser: 'babel-eslint',
