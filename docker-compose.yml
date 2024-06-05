@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  vue-app:
+    build:
+      context: ./client
+    ports:
+      - "80:80"
+    environment:
+      - VUE_APP_API_URL=${VUE_APP_API_URL}
+    depends_on:
+      - node-server
+
+  node-server:
+    build:
+      context: ./server
+    ports:
+      - "3000:3000"
+    environment:
+      - SPREADSHEET_ID=${SPREADSHEET_ID}
+      - GOOGLE_APPLICATION_CREDENTIALS=/var/secrets/google/credentials.json
+    volumes:
+      - ./server/credentials.json:/var/secrets/google/credentials.json:ro
